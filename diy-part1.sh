@@ -16,7 +16,7 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git' >>feeds.conf.default
+echo 'src-git OpenAppFilter https://github.com/Lienol/openwrt-OpenAppFilter' >>feeds.conf.default
 
 
 #增加oaf?
