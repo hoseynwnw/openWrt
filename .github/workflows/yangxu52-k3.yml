@@ -60,7 +60,7 @@ jobs:
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
     - name: 尝试获取缓存
-      uses: klever1988/cachewrtbuild@main
+      uses: hoseynwn/cachewrtbuild@main
       with:
         ccache: 'true'
         prefix: ${{ github.workspace }}/openwrt
