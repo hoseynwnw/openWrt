@@ -14,7 +14,7 @@
 #limitations under the License.
 #
 
-name: K3 firmware compile lede
+name:yangxu52-k3
 
 on:
   workflow_dispatch:
