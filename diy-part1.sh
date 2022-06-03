@@ -19,11 +19,8 @@
 #echo 'src-git OpenAppFilter https://github.com/Lienol/openwrt-OpenAppFilter' >>feeds.conf.default
 #echo "src-git cups https://github.com/Gr4ffy/lede-cups.git" >> feeds.conf.default
 #常用OpenWrt软件包源码合集,里面包括oaf,cups.
-echo 'src-git small-package https://github.com/kenzok8/small-package' >>feeds.conf.default
-
-
-
-# git clone https://github.com/kenzok8/small-package package/small-package
+#echo 'src-git small-package https://github.com/kenzok8/small-package' >>feeds.conf.default
+git clone https://github.com/kenzok8/small-package package/small-package
 
 #增加oaf?
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
